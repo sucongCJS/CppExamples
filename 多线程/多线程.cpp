@@ -1,8 +1,7 @@
 #include <iostream>
 #include <thread>
+#include <mutex>
 #include <time.h>
-
-using namespace std;
 
 struct ThreadArg{
     long long base;
@@ -28,11 +27,11 @@ static const long long COUNT = 1000000000;
 void singleThread(){
     clock_t t1 = clock();
 
-    long long commonMethodSum = 0;
+    long long SUM = 0;
     for (long long i = 0; i < COUNT; i++){
-        commonMethodSum += i;
+        SUM += i;
     }
-    cout<<"Single Thread: "<<(clock() - t1) * 1.0 / CLOCKS_PER_SEC<< "s"<<endl;
+    std::cout<<"Single Thread: "<<(clock() - t1) * 1.0 / CLOCKS_PER_SEC<< "s"<<std::endl;
 }
 
 void multiThreads(){
@@ -40,15 +39,15 @@ void multiThreads(){
 
     // 将1～count数列平均分为threadCount组，求解每组数列之和，再将其相加得到总和
     const int threadCount = 20;  // 设置并行线程数目
-    thread threads[threadCount];
+    std::thread threads[threadCount];
     ThreadArg args[threadCount];
 
     // 初始化线程及其参数
     for(int i=0; i<threadCount; i++){
         long long offset = (COUNT / threadCount) * i;
         args[i].base = offset;
-        args[i].length = min(COUNT - offset, COUNT / threadCount);
-        threads[i] = thread(sum, &args[i]);
+        args[i].length = std::min(COUNT - offset, COUNT / threadCount);
+        threads[i] = std::thread(sum, &args[i]);
     }
 
     // 启动线程并等待线程退出
@@ -56,16 +55,55 @@ void multiThreads(){
         threads[i].join();
     }
 
-    long long parallelMethodSum = 0;
+    long long SUM = 0;
     // 将每组数列之和相加得到总和
     for (int i = 0; i < threadCount; ++i) {
-        parallelMethodSum += args[i].sum;
+        SUM += args[i].sum;
     }
 
-    cout<<"Multi Threads: "<<(clock() - t1) * 1.0 / CLOCKS_PER_SEC<< "s"<<endl;
+    std::cout<<"Multi Threads: "<<(clock() - t1) * 1.0 / CLOCKS_PER_SEC<< "s"<<std::endl;
+}
+
+
+std::mutex mtx;
+long long SUM = 0;
+
+void sum2(ThreadArg arg){
+    long long sum = 0;
+    for(long long i=arg.base; i<arg.base+arg.length; i++){
+        sum += i;
+    }
+
+    mtx.lock();
+    SUM += sum;
+    mtx.unlock();
+}
+
+void multiThreads_with_mutex(){
+    clock_t t1 = clock();
+
+    const int threadCount = 20;  // 设置并行线程数目
+    std::thread threads[threadCount];
+    ThreadArg args[threadCount];
+
+    // 初始化线程及其参数
+    for(int i=0; i<threadCount; i++){
+        long long offset = (COUNT / threadCount) * i;
+        args[i].base = offset;
+        args[i].length = std::min(COUNT - offset, COUNT / threadCount);
+        threads[i] = std::thread(sum2, args[i]);
+    }
+
+    // 启动线程并等待线程退出
+    for(int i=0; i<threadCount; i++){
+        threads[i].join();
+    }
+
+    std::cout<<"Multi Threads (With Mutex): "<<(clock() - t1) * 1.0 / CLOCKS_PER_SEC<< "s"<<std::endl;
 }
 
 int main(){
     singleThread();
     multiThreads();
+    multiThreads_with_mutex();  // 加锁要快一些
 }
