@@ -12,12 +12,12 @@ struct light
 
 int main(){
     // 乘法
-    Eigen::Vector3f ks = Eigen::Vector3f(0.7937, 0.7937, 0.7937);
-    auto l1 = light{{20, 20, 20}, {500, 500, 500}};
+    // Eigen::Vector3f ks = Eigen::Vector3f(0.7937, 0.7937, 0.7937);
+    // auto l1 = light{{20, 20, 20}, {500, 500, 500}};
 
     // 对应元素相乘
-    cout<<ks.array() * l1.intensity.array()<<endl<<endl;
-    cout<<ks.cwiseProduct(l1.intensity)<<endl;  // 两个等效
+    // cout<<ks.array() * l1.intensity.array()<<endl<<endl;
+    // cout<<ks.cwiseProduct(l1.intensity)<<endl;  // 两个等效
 
 
     // 取向量的前几个
