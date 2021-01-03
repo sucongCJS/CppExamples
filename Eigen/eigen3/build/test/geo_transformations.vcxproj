@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E964429A-2356-30FD-A427-4477FE31478C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>geo_transformations</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\test;D:\x\GAMES\GAMES101\eigen3\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\test;D:\x\GAMES\GAMES101\eigen3\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\test;D:\x\GAMES\GAMES101\eigen3\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\test;D:\x\GAMES\GAMES101\eigen3\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\x\GAMES\GAMES101\eigen3\test\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\MacroAddFileDependencies.cmake;D:\x\GAMES\GAMES101\eigen3\build\CMakeFiles\FindMPI\test_mpi.cpp;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLAS.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLASEXT.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindCholmod.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindHWLOC.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindLAPACK.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMetis.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPTSCOTCH.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPastix.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSPQR.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindScotch.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSuperLU.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindUmfpack.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\MacroAddFileDependencies.cmake;D:\x\GAMES\GAMES101\eigen3\build\CMakeFiles\FindMPI\test_mpi.cpp;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLAS.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLASEXT.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindCholmod.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindHWLOC.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindLAPACK.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMetis.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPTSCOTCH.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPastix.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSPQR.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindScotch.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSuperLU.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindUmfpack.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\MacroAddFileDependencies.cmake;D:\x\GAMES\GAMES101\eigen3\build\CMakeFiles\FindMPI\test_mpi.cpp;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLAS.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLASEXT.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindCholmod.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindHWLOC.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindLAPACK.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMetis.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPTSCOTCH.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPastix.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSPQR.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindScotch.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSuperLU.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindUmfpack.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\MacroAddFileDependencies.cmake;D:\x\GAMES\GAMES101\eigen3\build\CMakeFiles\FindMPI\test_mpi.cpp;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLAS.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindBLASEXT.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindCholmod.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindHWLOC.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindLAPACK.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMetis.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPTSCOTCH.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindPastix.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSPQR.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindScotch.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindSuperLU.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindUmfpack.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\ZERO_CHECK.vcxproj">
+      <Project>{7331F8B3-5034-3876-8A0B-5D3EB1FC0FB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_1.vcxproj">
+      <Project>{67999564-5972-34D9-82C7-21174A1C1E3A}</Project>
+      <Name>geo_transformations_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_2.vcxproj">
+      <Project>{EBEABF37-C8A2-3C5C-9C78-43857F7FDC64}</Project>
+      <Name>geo_transformations_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_3.vcxproj">
+      <Project>{76AF3ABB-1A22-34CA-B735-91C8CDAC4A6F}</Project>
+      <Name>geo_transformations_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_4.vcxproj">
+      <Project>{DAAAA1FA-D82A-33A5-9C6A-CE19B2C30CE5}</Project>
+      <Name>geo_transformations_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_5.vcxproj">
+      <Project>{D71E5566-FA08-3DC3-8CF2-F2B2D8CAD0DD}</Project>
+      <Name>geo_transformations_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_6.vcxproj">
+      <Project>{C699473C-CF08-3758-BA37-C472A585A3EC}</Project>
+      <Name>geo_transformations_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_7.vcxproj">
+      <Project>{C930742F-7B68-3FDE-BA1E-6C74F3355FE5}</Project>
+      <Name>geo_transformations_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_8.vcxproj">
+      <Project>{11F731A5-2469-3B5B-BF67-8241BD958A21}</Project>
+      <Name>geo_transformations_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\test\geo_transformations_9.vcxproj">
+      <Project>{03BDA450-CF7C-3743-BF03-1E4FAE6716F5}</Project>
+      <Name>geo_transformations_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

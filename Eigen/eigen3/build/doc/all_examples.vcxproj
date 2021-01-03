@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E9FA704B-7979-3875-9A57-D481830BD38A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>all_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\x\GAMES\GAMES101\eigen3\doc\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\ZERO_CHECK.vcxproj">
+      <Project>{7331F8B3-5034-3876-8A0B-5D3EB1FC0FB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{74E29A2C-3EFE-3BD3-AB23-97EAD5D2B664}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Cwise_erf.vcxproj">
+      <Project>{0941804F-FB0D-3636-A762-F986571000E3}</Project>
+      <Name>Cwise_erf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{22E03F02-A702-31CB-871B-21BC05B3CC5E}</Project>
+      <Name>Cwise_erfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{0BF1644F-15E4-324B-94BB-56D557084858}</Project>
+      <Name>Cwise_lgamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{EF01B211-C837-30D7-98B4-8AD259944347}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{5B351CE7-E813-3DCF-AAEF-23A3904DF39E}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{41F07E1A-DE97-30CA-8BB4-279724C31608}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{370BB192-09E1-35ED-93A4-42F0F74F02A2}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\QuickStart_example.vcxproj">
+      <Project>{04665C44-8F1E-3421-9FCB-32E5CEF359E7}</Project>
+      <Name>QuickStart_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{AD6AE87C-498F-33EF-B02F-CE57CBC67811}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{E98AC1E5-B9C3-3A18-97A1-14CCF0F5D925}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{F2B2E6DB-D34B-3B68-8E77-BC06F1B09419}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{447CDD3B-F3AC-3EF5-8905-B42CE631DDD4}</Project>
+      <Name>TemplateKeyword_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{3106943D-8A16-38B5-8302-E5E005E555AE}</Project>
+      <Name>TutorialInplaceLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{AB254255-79C4-3DED-8A04-C7BD24F37D60}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{D202F8BB-4BC5-3B0A-AFB4-82BFFAF7AA4F}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{74712D58-EEA1-37EC-86EB-9B3A1DEF87B4}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{486D69F9-5E79-3901-A5DC-D8F1AD1D31F4}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{8A90E326-D289-3830-B049-736FABE26BE5}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{F083E9CB-181A-3113-A5CA-BDFA809195AF}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{571A2C43-F4A8-3F00-AFA9-723270D87585}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{E542272A-6F26-316F-950D-6876A363B95C}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{F24D9D1F-69C8-3603-9B8F-7400A00D9F31}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{310A2E3D-7D2A-38DE-8518-407BF99D7856}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{7507C93E-8888-39AA-BB07-1D0AAFE507B0}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{7541A58C-8753-362A-8722-54FFB0007BD8}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{0A3B5875-ED15-35DB-B6B0-9B12A3E6324F}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{EF5987AB-306E-312E-A7E9-62E6AE7B894D}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{003CEC55-6743-3C2E-9B9B-DF4B83197908}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{16925316-097E-37C4-83CD-0EAF7097A44E}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{721E82EC-F2C6-3499-9272-2999BD76867C}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{1516B980-572F-3537-9566-5B56A0C71125}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{0087F20F-AF93-37D4-9827-FFB5D25D70C0}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{8D24A10A-D915-34C9-9CDA-2AA1743C3C22}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{2D5AE72A-1FF2-3D69-9411-C776CEC540EB}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{5C9DA0BC-6D00-3052-B612-F80536E369B3}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{46BE9963-E8E8-3FEA-B8EC-C759A8BD9136}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{65023D84-C97A-3FA8-A599-CAE0139DDC51}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{5F39D7A4-D6E6-3617-B17C-90949F2D1D44}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{22EE7F6D-0B35-337A-917C-428FD3371943}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{9BDA7F3A-E4A9-3DCC-A061-D0B95FF4C732}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{368360F4-34E1-319B-BA86-93236A6E883B}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{C42682A2-67B4-3C66-9ED4-8A884E68C4BE}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{B038A085-CB1C-39AD-A399-3A080E7D7F1A}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{01A9B7CD-1713-3FA3-8E42-F28303D07B3F}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{A6F35611-E3C3-3A42-BAE1-09D70070A147}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{40AD702B-41A5-3A07-B17E-61DE13BC8467}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_Block.vcxproj">
+      <Project>{06C960FC-16E8-3315-9D3A-60F2AAC1C7BC}</Project>
+      <Name>class_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{ABAF9BE7-D157-32A1-9B5E-6B827822DC59}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{E8F76659-7E17-3CB5-9735-C165996CECA9}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{77F05504-CC33-36F9-8CDB-37F4D887EEFD}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{0ACBE2C3-B8DA-357E-812F-622CC4C7946A}</Project>
+      <Name>class_FixedBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{8550EA00-661B-3BD4-9134-7A8E3536E4D7}</Project>
+      <Name>class_FixedVectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{240038D6-45C5-31D4-9074-3F951CC7EED8}</Project>
+      <Name>class_VectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{7394270A-5D27-32A2-A8F5-68EA11E41694}</Project>
+      <Name>function_taking_eigenbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\function_taking_ref.vcxproj">
+      <Project>{AB7863F5-FC62-325A-BE5E-220AFAF8B00A}</Project>
+      <Name>function_taking_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\make_circulant.vcxproj">
+      <Project>{8B0272F8-E755-3488-83E6-FCD2568F729E}</Project>
+      <Name>make_circulant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\make_circulant2.vcxproj">
+      <Project>{A4B2D3AA-7EF3-34A8-927B-8E48DE6B25F5}</Project>
+      <Name>make_circulant2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{D1B605AA-8962-3F8E-AF82-C72C9AC87787}</Project>
+      <Name>matrixfree_cg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\nullary_indexing.vcxproj">
+      <Project>{0FD36C6A-81D3-3B52-88B7-2CB2714E752C}</Project>
+      <Name>nullary_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{F0C10BD9-CB3B-3AD5-8D0A-73F224C1F2E6}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{20723501-482C-3967-9D0A-9E33F997E0C1}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{32575888-0731-35ED-A527-5DA206302135}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{29C2DA12-0847-328B-8FF2-C18081F6286D}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{F58EB4DA-BD6A-322B-B165-3FD1830AE25A}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{DDADA040-E14B-3A28-B84D-06C38FDB0306}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{A1DCE254-C8EB-3CFC-B560-2ACB9078F1E0}</Project>
+      <Name>tut_matrix_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{7A1F2FCE-7182-3B1F-9F6E-C38E7D833616}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

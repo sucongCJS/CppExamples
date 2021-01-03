@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{685EE271-69FF-31B3-9DE3-E05030BCCED2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>BuildUnsupported</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\x\GAMES\GAMES101\eigen3\unsupported\test\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\ZERO_CHECK.vcxproj">
+      <Project>{7331F8B3-5034-3876-8A0B-5D3EB1FC0FB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\BVH_1.vcxproj">
+      <Project>{2F295AB5-BCBE-387B-B6A1-D1B4538685C1}</Project>
+      <Name>BVH_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\BVH_2.vcxproj">
+      <Project>{25D4ABDC-E237-33A7-8F65-F2F8BF8FE993}</Project>
+      <Name>BVH_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\BVH_3.vcxproj">
+      <Project>{3343FA09-3696-3DA4-A2FA-9B80214B19AF}</Project>
+      <Name>BVH_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\EulerAngles_1.vcxproj">
+      <Project>{2C691066-91F1-35F2-997B-459DFD7048F6}</Project>
+      <Name>EulerAngles_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\EulerAngles_2.vcxproj">
+      <Project>{4D469212-27AE-349B-A764-FB400B72E913}</Project>
+      <Name>EulerAngles_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\FFT.vcxproj">
+      <Project>{F8BD2A32-2D37-35D8-B601-7F54BC4A4F8A}</Project>
+      <Name>FFT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\NonLinearOptimization.vcxproj">
+      <Project>{18D80122-1902-3EF7-B50F-89D9E203087D}</Project>
+      <Name>NonLinearOptimization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\NumericalDiff.vcxproj">
+      <Project>{5AC24B27-D39C-3623-BF9C-F74E0B91F491}</Project>
+      <Name>NumericalDiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\alignedvector3.vcxproj">
+      <Project>{651B64D4-8C9B-3F39-9C7D-8E4B3B136375}</Project>
+      <Name>alignedvector3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_1.vcxproj">
+      <Project>{A72C3CFE-F3B6-3F13-825A-F6DBAF0AC673}</Project>
+      <Name>autodiff_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_2.vcxproj">
+      <Project>{34C79D5A-3F46-3142-8A7B-35B6FDD8C3E6}</Project>
+      <Name>autodiff_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_3.vcxproj">
+      <Project>{DFA3C035-49AE-3F66-893A-5F4A0F2BCD3F}</Project>
+      <Name>autodiff_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_4.vcxproj">
+      <Project>{ABC7288F-743B-320E-A762-2483102AE3E5}</Project>
+      <Name>autodiff_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_5.vcxproj">
+      <Project>{9C84F8FF-D4CC-33EE-AB71-9F1CD796D584}</Project>
+      <Name>autodiff_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_scalar_1.vcxproj">
+      <Project>{AC82F0D5-26D3-32F3-A110-F3382E2C485C}</Project>
+      <Name>autodiff_scalar_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_scalar_2.vcxproj">
+      <Project>{69E7CFCB-A8BF-31F6-80B9-EFADF4D1CA85}</Project>
+      <Name>autodiff_scalar_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_scalar_3.vcxproj">
+      <Project>{51A6863D-2A97-30E0-918A-BC994A1CD260}</Project>
+      <Name>autodiff_scalar_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_scalar_4.vcxproj">
+      <Project>{7CE679C1-1DC5-32EE-81CD-93C46D4537A2}</Project>
+      <Name>autodiff_scalar_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\autodiff_scalar_5.vcxproj">
+      <Project>{CA8C45F8-9BDC-3531-A01A-69767D129789}</Project>
+      <Name>autodiff_scalar_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_assign.vcxproj">
+      <Project>{2F63B9C2-A668-317A-A5E0-4BA37D075AF5}</Project>
+      <Name>cxx11_tensor_assign</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_casts.vcxproj">
+      <Project>{BE727E77-5253-3C9A-B139-9EF141FB6731}</Project>
+      <Name>cxx11_tensor_casts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_comparisons.vcxproj">
+      <Project>{11528621-4EBC-3113-85F1-96081D28244F}</Project>
+      <Name>cxx11_tensor_comparisons</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_const.vcxproj">
+      <Project>{EFE95127-E608-3407-91AB-99C73903A2C5}</Project>
+      <Name>cxx11_tensor_const</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_dimension.vcxproj">
+      <Project>{D9F960C8-150D-3E75-80BB-D61955B85BFC}</Project>
+      <Name>cxx11_tensor_dimension</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_empty.vcxproj">
+      <Project>{D912DCBF-A79C-3DAD-83CF-E4582587C4DD}</Project>
+      <Name>cxx11_tensor_empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_forced_eval.vcxproj">
+      <Project>{C8A8898F-6DDD-355B-BE8D-8812BDE62364}</Project>
+      <Name>cxx11_tensor_forced_eval</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_1.vcxproj">
+      <Project>{A736B562-F294-3A04-A0D5-010103356C21}</Project>
+      <Name>cxx11_tensor_intdiv_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_2.vcxproj">
+      <Project>{0B365A6D-66B6-32DC-AFFE-32A71DD5858E}</Project>
+      <Name>cxx11_tensor_intdiv_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_3.vcxproj">
+      <Project>{BF2AE199-5A2E-33C1-8964-25E7E8B9CCF8}</Project>
+      <Name>cxx11_tensor_intdiv_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_4.vcxproj">
+      <Project>{ABA1D487-5B1A-3BED-8ABB-E995116B47DC}</Project>
+      <Name>cxx11_tensor_intdiv_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_5.vcxproj">
+      <Project>{2CF11F3E-D39F-3352-BAAD-31B84965BF30}</Project>
+      <Name>cxx11_tensor_intdiv_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_6.vcxproj">
+      <Project>{8959B295-B5BE-333D-87A0-A781E1F5BE19}</Project>
+      <Name>cxx11_tensor_intdiv_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_intdiv_7.vcxproj">
+      <Project>{CE3F9CEB-FFB6-3A68-AF0E-AA1D2BF3C3B3}</Project>
+      <Name>cxx11_tensor_intdiv_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_io.vcxproj">
+      <Project>{927A4136-5ACC-3E68-AC96-9EBEBBF8F29C}</Project>
+      <Name>cxx11_tensor_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_layout_swap.vcxproj">
+      <Project>{C4A1A32F-AAA8-3A0C-B85C-0B8263BCABDD}</Project>
+      <Name>cxx11_tensor_layout_swap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_map.vcxproj">
+      <Project>{32CFA10F-234B-3941-98F2-697059B6C3B5}</Project>
+      <Name>cxx11_tensor_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_math.vcxproj">
+      <Project>{5D83524D-761A-397F-BADB-807D384CA810}</Project>
+      <Name>cxx11_tensor_math</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_roundings.vcxproj">
+      <Project>{F3B33466-B429-33D1-A2C1-ED5720FF6FD9}</Project>
+      <Name>cxx11_tensor_roundings</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_sugar.vcxproj">
+      <Project>{8603DF03-B205-382E-B0CF-2437A0DFB568}</Project>
+      <Name>cxx11_tensor_sugar</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_uint128_1.vcxproj">
+      <Project>{8DA10059-B4DD-32FB-8A60-895F7CAC04D9}</Project>
+      <Name>cxx11_tensor_uint128_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_uint128_2.vcxproj">
+      <Project>{A8065C85-1D14-302C-AE47-CEE5AA2B1327}</Project>
+      <Name>cxx11_tensor_uint128_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_uint128_3.vcxproj">
+      <Project>{7CE9C67A-EDB2-3907-8F0D-0C4CBACBC50B}</Project>
+      <Name>cxx11_tensor_uint128_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_uint128_4.vcxproj">
+      <Project>{281E3F0C-9F06-3A31-B5B4-B50AAA8A24EE}</Project>
+      <Name>cxx11_tensor_uint128_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_uint128_5.vcxproj">
+      <Project>{CA2594D9-8AED-366F-A9AC-39F92D7BDADF}</Project>
+      <Name>cxx11_tensor_uint128_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\cxx11_tensor_uint128_6.vcxproj">
+      <Project>{43E412EA-36C8-30AF-A127-9DD19A33C401}</Project>
+      <Name>cxx11_tensor_uint128_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\gmres_1.vcxproj">
+      <Project>{5BBE9299-E937-3907-81E4-43425C35FD0D}</Project>
+      <Name>gmres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\gmres_2.vcxproj">
+      <Project>{E9B64320-DC9A-3009-AF61-6EB7DAEC3EED}</Project>
+      <Name>gmres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\kronecker_product_1.vcxproj">
+      <Project>{7842D1E7-1959-300F-951C-9D5E60959C72}</Project>
+      <Name>kronecker_product_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\kronecker_product_2.vcxproj">
+      <Project>{C22960B2-42CC-3377-B701-49E07376F0F5}</Project>
+      <Name>kronecker_product_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\levenberg_marquardt.vcxproj">
+      <Project>{EB2C5C2F-9600-3139-A45A-AE83153BC0FA}</Project>
+      <Name>levenberg_marquardt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_1.vcxproj">
+      <Project>{3B2D5A4C-392A-3024-A5EE-C54197AFACB1}</Project>
+      <Name>matrix_exponential_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_2.vcxproj">
+      <Project>{7CBA9F23-2511-3638-A211-C1EC877744AD}</Project>
+      <Name>matrix_exponential_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_3.vcxproj">
+      <Project>{164A8BC1-1184-3571-8CF4-8A2410F8D889}</Project>
+      <Name>matrix_exponential_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_4.vcxproj">
+      <Project>{A8111233-2A49-3E75-9F93-64A3D2F4B44A}</Project>
+      <Name>matrix_exponential_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_5.vcxproj">
+      <Project>{6D661C58-1DE2-32D8-BF8B-178D38F6A2F2}</Project>
+      <Name>matrix_exponential_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_6.vcxproj">
+      <Project>{8428DACC-AB7E-31F9-A41A-AE99B30AF147}</Project>
+      <Name>matrix_exponential_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_7.vcxproj">
+      <Project>{3D0BDF7E-FB13-35F7-BA16-870002458C7A}</Project>
+      <Name>matrix_exponential_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_8.vcxproj">
+      <Project>{AD6F136D-68D5-3F31-932B-EEA8B544065F}</Project>
+      <Name>matrix_exponential_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_exponential_9.vcxproj">
+      <Project>{9AF26104-E9E7-309C-8CEA-2FFA6FC734E9}</Project>
+      <Name>matrix_exponential_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_1.vcxproj">
+      <Project>{B554A0B8-5DE4-397E-ADEC-C7D054C3AC18}</Project>
+      <Name>matrix_function_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_2.vcxproj">
+      <Project>{EC81AE32-6C57-3F43-AD1B-F9DEF81DB2E8}</Project>
+      <Name>matrix_function_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_3.vcxproj">
+      <Project>{6CDAA713-3DD8-310E-91C4-2AE38C9BD3DC}</Project>
+      <Name>matrix_function_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_4.vcxproj">
+      <Project>{C5DEA08B-84DB-3F4F-BB50-669D7F03115F}</Project>
+      <Name>matrix_function_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_5.vcxproj">
+      <Project>{626895CA-3AC3-3EA6-97EC-4859F803346D}</Project>
+      <Name>matrix_function_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_6.vcxproj">
+      <Project>{0EE2F524-B976-3C05-B5BE-A7D9D084DDDF}</Project>
+      <Name>matrix_function_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_function_7.vcxproj">
+      <Project>{ACA04676-8A11-3577-920E-0C8DBFD07117}</Project>
+      <Name>matrix_function_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_1.vcxproj">
+      <Project>{BA77C5F7-7CE0-320A-8C26-BFA6E8FB137D}</Project>
+      <Name>matrix_power_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_10.vcxproj">
+      <Project>{BF127ED9-02F4-31DB-ACAA-5E63C2F7AB48}</Project>
+      <Name>matrix_power_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_11.vcxproj">
+      <Project>{D98A1A6B-E73D-3EE0-8D0A-D1BC0D9E030B}</Project>
+      <Name>matrix_power_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_12.vcxproj">
+      <Project>{BF2E485E-556C-3B09-8D92-5C4102B348DB}</Project>
+      <Name>matrix_power_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_2.vcxproj">
+      <Project>{7049ED32-4019-3D3C-935C-11877336768F}</Project>
+      <Name>matrix_power_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_3.vcxproj">
+      <Project>{0AFE8F3B-DAEA-3C32-9FC7-6B12CA845C3D}</Project>
+      <Name>matrix_power_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_4.vcxproj">
+      <Project>{2391F637-E194-3931-8CB3-70737BCE2283}</Project>
+      <Name>matrix_power_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_5.vcxproj">
+      <Project>{6A279C2B-0DD3-3F5F-9C8C-282E3605BC8E}</Project>
+      <Name>matrix_power_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_6.vcxproj">
+      <Project>{18B21857-C0B7-32D1-9953-B3F14FBB9EC8}</Project>
+      <Name>matrix_power_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_7.vcxproj">
+      <Project>{F8B3206A-E414-33CE-ADCE-86576E453C0D}</Project>
+      <Name>matrix_power_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_8.vcxproj">
+      <Project>{B0AF3D01-01F6-3A9F-A656-EC7B88F978E7}</Project>
+      <Name>matrix_power_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_9.vcxproj">
+      <Project>{728BB0C3-65FC-3F97-BAD7-02466AC780D6}</Project>
+      <Name>matrix_power_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_square_root_1.vcxproj">
+      <Project>{E9A6E3B7-DE9A-3760-8B5D-60EA77555593}</Project>
+      <Name>matrix_square_root_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_square_root_2.vcxproj">
+      <Project>{FB72D028-43E2-3D19-B37B-72E043611820}</Project>
+      <Name>matrix_square_root_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_square_root_3.vcxproj">
+      <Project>{6448F104-A10F-314D-9384-D7AC8F2E22B9}</Project>
+      <Name>matrix_square_root_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_square_root_4.vcxproj">
+      <Project>{8B7CC4DC-175E-36F6-B720-2DD13942E902}</Project>
+      <Name>matrix_square_root_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_square_root_5.vcxproj">
+      <Project>{98C5416D-122C-37CA-8DCD-637B78864540}</Project>
+      <Name>matrix_square_root_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\minres_1.vcxproj">
+      <Project>{7A4B934E-514C-37EA-939B-AE9D732DC9BC}</Project>
+      <Name>minres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\minres_2.vcxproj">
+      <Project>{70E998CB-DF3B-3843-8DB0-B4B151231FFF}</Project>
+      <Name>minres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_1.vcxproj">
+      <Project>{137C92EB-CAA2-38B9-B846-B2CF8553AE67}</Project>
+      <Name>polynomialsolver_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_10.vcxproj">
+      <Project>{B74744CD-4472-35B6-9A99-7A56FD8887D6}</Project>
+      <Name>polynomialsolver_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_11.vcxproj">
+      <Project>{E76274D5-CEE4-34FC-8CD1-DF9C85EAA43C}</Project>
+      <Name>polynomialsolver_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_12.vcxproj">
+      <Project>{549DFAA3-72C9-3555-84E7-CD2C121CA904}</Project>
+      <Name>polynomialsolver_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_2.vcxproj">
+      <Project>{98A7AABC-9857-33DA-942E-45DD85BDD885}</Project>
+      <Name>polynomialsolver_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_3.vcxproj">
+      <Project>{C1DDA45A-B02A-3AA2-82B0-50F437CFE892}</Project>
+      <Name>polynomialsolver_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_4.vcxproj">
+      <Project>{4B47B13B-E6C5-3D00-9F0F-4B3FE2CB2475}</Project>
+      <Name>polynomialsolver_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_5.vcxproj">
+      <Project>{DB394262-7AE6-36A9-8420-493986552A7A}</Project>
+      <Name>polynomialsolver_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_6.vcxproj">
+      <Project>{BCA30326-EDC0-3BCA-8F1B-1AED96D00448}</Project>
+      <Name>polynomialsolver_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_7.vcxproj">
+      <Project>{81D99A7F-A3B9-37A4-B42E-F6528326A50C}</Project>
+      <Name>polynomialsolver_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_8.vcxproj">
+      <Project>{F73AB4EB-697A-3D65-8F04-6EFDF2D4823D}</Project>
+      <Name>polynomialsolver_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialsolver_9.vcxproj">
+      <Project>{4C86D965-0B11-3B99-8A17-A1112D4350E8}</Project>
+      <Name>polynomialsolver_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_2.vcxproj">
+      <Project>{7D4DD882-72C4-358B-B71F-496F78979C6B}</Project>
+      <Name>polynomialutils_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_3.vcxproj">
+      <Project>{65F377BC-0CDD-314E-967B-291074790548}</Project>
+      <Name>polynomialutils_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_4.vcxproj">
+      <Project>{275F960F-1568-3989-A0C1-0FBE84CBACF5}</Project>
+      <Name>polynomialutils_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_5.vcxproj">
+      <Project>{4C2C82E2-AB0E-3A27-AE9B-4D24B7DAE961}</Project>
+      <Name>polynomialutils_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_6.vcxproj">
+      <Project>{59025C89-E06B-3E23-9D7A-958DDF9F6476}</Project>
+      <Name>polynomialutils_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_7.vcxproj">
+      <Project>{71DB23BB-0057-344C-8A82-9F6A8A4F42BC}</Project>
+      <Name>polynomialutils_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_8.vcxproj">
+      <Project>{426CDBF7-FF2F-3DC7-905A-C75D440B7B68}</Project>
+      <Name>polynomialutils_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\polynomialutils_9.vcxproj">
+      <Project>{CCED83B0-3BA5-3A0B-A1B3-BEC02EE1662B}</Project>
+      <Name>polynomialutils_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\sparse_extra_1.vcxproj">
+      <Project>{3202FA1C-7BB7-335A-A120-2F921B7F74F3}</Project>
+      <Name>sparse_extra_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\sparse_extra_2.vcxproj">
+      <Project>{849600C9-5C37-374E-A57A-584D0A224D68}</Project>
+      <Name>sparse_extra_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\sparse_extra_3.vcxproj">
+      <Project>{CBFA6956-2FAD-387E-BF34-BAB474D92268}</Project>
+      <Name>sparse_extra_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\special_functions_1.vcxproj">
+      <Project>{29990CF9-B9C6-353C-846D-B5C55B090931}</Project>
+      <Name>special_functions_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\special_functions_2.vcxproj">
+      <Project>{5D21EF00-CCEE-3888-A366-6579BF3F6D21}</Project>
+      <Name>special_functions_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\splines.vcxproj">
+      <Project>{65DE78AC-370D-3DDB-B7E9-73A010E373ED}</Project>
+      <Name>splines</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

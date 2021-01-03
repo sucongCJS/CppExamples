@@ -2,24 +2,7 @@
 #include <thread>
 #include <mutex>
 #include <time.h>
-
-struct ThreadArg{
-    long long base;
-    long long length;
-    long long sum;
-};
-
-void sum(ThreadArg *arg){
-    long long begin = arg->base;
-    long long end = arg->base + arg->length;
-    long long sum = 0;
-    for(long long i=begin; i<end; i++){
-        sum += i;
-    }
-    arg->sum = sum;
-    // 直接使用for(long long i = arg->base; i < arg->base + arg->length) 和 arg->sum += i; 会慢一些
-    // 因为指针的读取比普通栈的读取需要多花费一些时间
-}
+#include <functional>  // std::bind
 
 // 计算1～COUNT数列之和
 static const long long COUNT = 1000000000;
@@ -32,6 +15,21 @@ void singleThread(){
         SUM += i;
     }
     std::cout<<"Single Thread: "<<(clock() - t1) * 1.0 / CLOCKS_PER_SEC<< "s"<<std::endl;
+}
+
+struct ThreadArg{
+    long long base;
+    long long length;
+    long long sum;
+};
+
+void sum(ThreadArg arg){
+    long long sum = 0;
+    for(long long i=arg.base; i<arg.base+arg.length; i++){
+        sum += i;
+    }
+    // 直接使用for(long long i = arg->base; i < arg->base + arg->length) 和 arg->sum += i; 会慢一些
+    // 因为指针的读取比普通栈的读取需要多花费一些时间
 }
 
 void multiThreads(){
@@ -47,12 +45,13 @@ void multiThreads(){
         long long offset = (COUNT / threadCount) * i;
         args[i].base = offset;
         args[i].length = std::min(COUNT - offset, COUNT / threadCount);
-        threads[i] = std::thread(sum, &args[i]);
+        threads[i] = std::thread(&sum, args[i]);
+        // threads[i] = std::thread(std::bind(&sum, args[i]));  // bind会将一个函数对象作为它的参数
     }
 
     // 启动线程并等待线程退出
     for(int i=0; i<threadCount; i++){
-        threads[i].join();
+        threads[i].join();  // join()保证了在线程完成后程序才会终结("join"的意思是等待线程返回后再终结)
     }
 
     long long SUM = 0;

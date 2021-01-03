@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44ABA3F1-F68A-3381-BEFF-9FBD3AABAA0B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\doc;D:\x\GAMES\GAMES101\eigen3\doc;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\x\GAMES\GAMES101\eigen3\doc\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\doc\Doxyfile.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_footer.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_header.html.in;D:\x\GAMES\GAMES101\eigen3\doc\eigendoxy_layout.xml.in;D:\x\GAMES\GAMES101\eigen3\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\ZERO_CHECK.vcxproj">
+      <Project>{7331F8B3-5034-3876-8A0B-5D3EB1FC0FB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{74E29A2C-3EFE-3BD3-AB23-97EAD5D2B664}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Cwise_erf.vcxproj">
+      <Project>{0941804F-FB0D-3636-A762-F986571000E3}</Project>
+      <Name>Cwise_erf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{22E03F02-A702-31CB-871B-21BC05B3CC5E}</Project>
+      <Name>Cwise_erfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{0BF1644F-15E4-324B-94BB-56D557084858}</Project>
+      <Name>Cwise_lgamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{EF01B211-C837-30D7-98B4-8AD259944347}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{5B351CE7-E813-3DCF-AAEF-23A3904DF39E}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{41F07E1A-DE97-30CA-8BB4-279724C31608}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{370BB192-09E1-35ED-93A4-42F0F74F02A2}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\QuickStart_example.vcxproj">
+      <Project>{04665C44-8F1E-3421-9FCB-32E5CEF359E7}</Project>
+      <Name>QuickStart_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{AD6AE87C-498F-33EF-B02F-CE57CBC67811}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{E98AC1E5-B9C3-3A18-97A1-14CCF0F5D925}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{F2B2E6DB-D34B-3B68-8E77-BC06F1B09419}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{447CDD3B-F3AC-3EF5-8905-B42CE631DDD4}</Project>
+      <Name>TemplateKeyword_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{3106943D-8A16-38B5-8302-E5E005E555AE}</Project>
+      <Name>TutorialInplaceLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{AB254255-79C4-3DED-8A04-C7BD24F37D60}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{D202F8BB-4BC5-3B0A-AFB4-82BFFAF7AA4F}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{74712D58-EEA1-37EC-86EB-9B3A1DEF87B4}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{486D69F9-5E79-3901-A5DC-D8F1AD1D31F4}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{8A90E326-D289-3830-B049-736FABE26BE5}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{F083E9CB-181A-3113-A5CA-BDFA809195AF}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{571A2C43-F4A8-3F00-AFA9-723270D87585}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{E542272A-6F26-316F-950D-6876A363B95C}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{F24D9D1F-69C8-3603-9B8F-7400A00D9F31}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{310A2E3D-7D2A-38DE-8518-407BF99D7856}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{7507C93E-8888-39AA-BB07-1D0AAFE507B0}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{7541A58C-8753-362A-8722-54FFB0007BD8}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{0A3B5875-ED15-35DB-B6B0-9B12A3E6324F}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{EF5987AB-306E-312E-A7E9-62E6AE7B894D}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{003CEC55-6743-3C2E-9B9B-DF4B83197908}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{16925316-097E-37C4-83CD-0EAF7097A44E}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{721E82EC-F2C6-3499-9272-2999BD76867C}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{1516B980-572F-3537-9566-5B56A0C71125}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{0087F20F-AF93-37D4-9827-FFB5D25D70C0}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{8D24A10A-D915-34C9-9CDA-2AA1743C3C22}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{2D5AE72A-1FF2-3D69-9411-C776CEC540EB}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{5C9DA0BC-6D00-3052-B612-F80536E369B3}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{46BE9963-E8E8-3FEA-B8EC-C759A8BD9136}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{65023D84-C97A-3FA8-A599-CAE0139DDC51}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{5F39D7A4-D6E6-3617-B17C-90949F2D1D44}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{22EE7F6D-0B35-337A-917C-428FD3371943}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{9BDA7F3A-E4A9-3DCC-A061-D0B95FF4C732}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{368360F4-34E1-319B-BA86-93236A6E883B}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{C42682A2-67B4-3C66-9ED4-8A884E68C4BE}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{B038A085-CB1C-39AD-A399-3A080E7D7F1A}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{01A9B7CD-1713-3FA3-8E42-F28303D07B3F}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{A6F35611-E3C3-3A42-BAE1-09D70070A147}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{40AD702B-41A5-3A07-B17E-61DE13BC8467}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_Block.vcxproj">
+      <Project>{06C960FC-16E8-3315-9D3A-60F2AAC1C7BC}</Project>
+      <Name>class_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{ABAF9BE7-D157-32A1-9B5E-6B827822DC59}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{E8F76659-7E17-3CB5-9735-C165996CECA9}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{77F05504-CC33-36F9-8CDB-37F4D887EEFD}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{0ACBE2C3-B8DA-357E-812F-622CC4C7946A}</Project>
+      <Name>class_FixedBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{8550EA00-661B-3BD4-9134-7A8E3536E4D7}</Project>
+      <Name>class_FixedVectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{240038D6-45C5-31D4-9074-3F951CC7EED8}</Project>
+      <Name>class_VectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>{2A0DADC5-7C87-3AE2-9D0A-96053E03A445}</Project>
+      <Name>compile_AngleAxis_mimic_euler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_BiCGSTAB_simple.vcxproj">
+      <Project>{38FEA0A9-3B8F-3F77-B4C4-02307A9E1CE3}</Project>
+      <Name>compile_BiCGSTAB_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_BiCGSTAB_step_by_step.vcxproj">
+      <Project>{87538ED2-84B4-3802-BE39-FD33280A5AA6}</Project>
+      <Name>compile_BiCGSTAB_step_by_step</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>{50122E9F-0F63-3E83-9236-95C05885F30A}</Project>
+      <Name>compile_ColPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>{8BEB4847-CCF6-37DF-885F-F7C4BE083057}</Project>
+      <Name>compile_ComplexEigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>{6EECDC7B-EB2B-354F-94D5-F9899B5BA7EE}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>{4C06239D-808B-35D7-B5AB-4B982647F9D3}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ComplexSchur_compute.vcxproj">
+      <Project>{C7288F85-13F2-380D-A6DE-874C97960FC5}</Project>
+      <Name>compile_ComplexSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ComplexSchur_matrixT.vcxproj">
+      <Project>{24C15519-B3C8-3716-9D79-0F359A81E25A}</Project>
+      <Name>compile_ComplexSchur_matrixT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_ComplexSchur_matrixU.vcxproj">
+      <Project>{8F7657B1-25CF-3E08-B380-35EC7BF64574}</Project>
+      <Name>compile_ComplexSchur_matrixU</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_abs.vcxproj">
+      <Project>{76CB818E-767D-3EA1-95CA-2E27136D5D14}</Project>
+      <Name>compile_Cwise_abs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_abs2.vcxproj">
+      <Project>{1C751144-F42B-3B09-B54C-E5B6DA7E42CE}</Project>
+      <Name>compile_Cwise_abs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_acos.vcxproj">
+      <Project>{D7D02F2A-EDF4-3E9F-A3F7-28283FCB388E}</Project>
+      <Name>compile_Cwise_acos</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_arg.vcxproj">
+      <Project>{DFF566BC-91C2-3CC2-B511-431974CF8B78}</Project>
+      <Name>compile_Cwise_arg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_array_power_array.vcxproj">
+      <Project>{57F999DB-B21A-3617-AC34-3B9C7EB559F7}</Project>
+      <Name>compile_Cwise_array_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_asin.vcxproj">
+      <Project>{80D3C713-949A-3176-9FFD-B1043EEFC06F}</Project>
+      <Name>compile_Cwise_asin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_atan.vcxproj">
+      <Project>{80539BC8-0A8A-3F42-8F63-FBB6AB4EFE6A}</Project>
+      <Name>compile_Cwise_atan</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_boolean_and.vcxproj">
+      <Project>{7E07A3F9-79DB-3C47-A5AE-7D7C6C057A9E}</Project>
+      <Name>compile_Cwise_boolean_and</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_boolean_not.vcxproj">
+      <Project>{007DCC82-BC9C-3354-9386-62B394D83A99}</Project>
+      <Name>compile_Cwise_boolean_not</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_boolean_or.vcxproj">
+      <Project>{DE1EC9FC-61FF-3AB4-9EB3-06707E09E5BD}</Project>
+      <Name>compile_Cwise_boolean_or</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_boolean_xor.vcxproj">
+      <Project>{49183606-A89E-3132-8F71-0DAD6520CE9A}</Project>
+      <Name>compile_Cwise_boolean_xor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_ceil.vcxproj">
+      <Project>{823FD69D-5C12-3B36-B471-BC7672B003BD}</Project>
+      <Name>compile_Cwise_ceil</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_cos.vcxproj">
+      <Project>{E95B0570-E335-3748-8195-D064243E4D4C}</Project>
+      <Name>compile_Cwise_cos</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_cosh.vcxproj">
+      <Project>{FD190005-33CE-3642-9AB8-7206BD5372CF}</Project>
+      <Name>compile_Cwise_cosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_cube.vcxproj">
+      <Project>{911500B5-0BE0-3443-9BDC-19B74B8DD5C5}</Project>
+      <Name>compile_Cwise_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_equal_equal.vcxproj">
+      <Project>{0D43D725-BADE-3861-8A6B-39C81F362A1F}</Project>
+      <Name>compile_Cwise_equal_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_exp.vcxproj">
+      <Project>{257B807A-4603-3EC9-9B8A-A212E8F2682B}</Project>
+      <Name>compile_Cwise_exp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_floor.vcxproj">
+      <Project>{451E397C-C7EC-3112-B365-541902FE2B30}</Project>
+      <Name>compile_Cwise_floor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_greater.vcxproj">
+      <Project>{BC0A5738-C7B5-30F5-BFE0-D9A20E33CEB5}</Project>
+      <Name>compile_Cwise_greater</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_greater_equal.vcxproj">
+      <Project>{1EDC5E06-7CCD-3B5F-9B9A-99A801A1C17A}</Project>
+      <Name>compile_Cwise_greater_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_inverse.vcxproj">
+      <Project>{9DC70238-ED2C-3659-B1AA-4FF025195172}</Project>
+      <Name>compile_Cwise_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_isFinite.vcxproj">
+      <Project>{612FB1F2-673D-34B2-907A-2AA37F86775F}</Project>
+      <Name>compile_Cwise_isFinite</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_isInf.vcxproj">
+      <Project>{F9F43461-7680-395E-BB61-CE77D0D36A2E}</Project>
+      <Name>compile_Cwise_isInf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_isNaN.vcxproj">
+      <Project>{00F6623C-F168-39F6-BCFE-617103AB703B}</Project>
+      <Name>compile_Cwise_isNaN</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_less.vcxproj">
+      <Project>{E101B01A-FEBD-3F4C-A358-B326E567A222}</Project>
+      <Name>compile_Cwise_less</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_less_equal.vcxproj">
+      <Project>{F1105656-86B6-39C8-AB0D-999B55A50AC2}</Project>
+      <Name>compile_Cwise_less_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_log.vcxproj">
+      <Project>{B37009F0-EB91-31C7-B7FA-830CAA3D22EE}</Project>
+      <Name>compile_Cwise_log</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_log10.vcxproj">
+      <Project>{28D47389-E912-3AEF-B5B7-8C7223B5FE93}</Project>
+      <Name>compile_Cwise_log10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_max.vcxproj">
+      <Project>{B3CC2DC1-A6FF-300A-8BC6-6BE6F5A1E548}</Project>
+      <Name>compile_Cwise_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_min.vcxproj">
+      <Project>{07B37E8F-DA07-3C9C-901D-9A9D7175C539}</Project>
+      <Name>compile_Cwise_min</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_minus.vcxproj">
+      <Project>{04ED6866-36D1-3AAB-8851-F2676A1370AD}</Project>
+      <Name>compile_Cwise_minus</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_minus_equal.vcxproj">
+      <Project>{F6D8FC6D-5E7E-33A2-B80C-33454D4F5373}</Project>
+      <Name>compile_Cwise_minus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_not_equal.vcxproj">
+      <Project>{13F714C2-4648-3176-82EA-5547797261A8}</Project>
+      <Name>compile_Cwise_not_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_plus.vcxproj">
+      <Project>{58A593DC-E6DE-38D2-89C9-CA5DB6A6E9C4}</Project>
+      <Name>compile_Cwise_plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_plus_equal.vcxproj">
+      <Project>{501D6F01-01AB-3B00-85D7-9FA22442E250}</Project>
+      <Name>compile_Cwise_plus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_pow.vcxproj">
+      <Project>{76AAA90B-FBDE-393C-966C-C3B9429E010B}</Project>
+      <Name>compile_Cwise_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_product.vcxproj">
+      <Project>{DB6C1A26-ACD0-3FBA-9FB3-F4DF77CCFF7C}</Project>
+      <Name>compile_Cwise_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_quotient.vcxproj">
+      <Project>{168428B2-77F1-3EAE-AAD8-8DD1D7992E04}</Project>
+      <Name>compile_Cwise_quotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_round.vcxproj">
+      <Project>{890534E3-C892-3323-8E12-DD8D6B5CE17B}</Project>
+      <Name>compile_Cwise_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_scalar_power_array.vcxproj">
+      <Project>{D83338B3-0838-39A3-9FF2-D146DB4B470E}</Project>
+      <Name>compile_Cwise_scalar_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_sign.vcxproj">
+      <Project>{E5C873B9-B36D-37E8-AC19-1C3125D8E1DB}</Project>
+      <Name>compile_Cwise_sign</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_sin.vcxproj">
+      <Project>{BF8DCC99-2459-3D38-8273-2B213BEBE741}</Project>
+      <Name>compile_Cwise_sin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_sinh.vcxproj">
+      <Project>{AB2EB5A0-9097-3D28-AE34-71FB199539D1}</Project>
+      <Name>compile_Cwise_sinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_slash_equal.vcxproj">
+      <Project>{D902DB78-6C63-3697-A690-173E031EC1DF}</Project>
+      <Name>compile_Cwise_slash_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_sqrt.vcxproj">
+      <Project>{6C5BEEDF-42EA-3C61-BA7F-88D3811F60CA}</Project>
+      <Name>compile_Cwise_sqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_square.vcxproj">
+      <Project>{228BBD5A-9A07-3834-9987-B4C6615D6985}</Project>
+      <Name>compile_Cwise_square</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_tan.vcxproj">
+      <Project>{9EB70FEB-AC4B-32E0-954D-9958330AB744}</Project>
+      <Name>compile_Cwise_tan</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_tanh.vcxproj">
+      <Project>{826F8964-0617-3AC2-8F1C-D741BD72CC02}</Project>
+      <Name>compile_Cwise_tanh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Cwise_times_equal.vcxproj">
+      <Project>{035A023D-F54B-3447-9CF0-BF523D1766DA}</Project>
+      <Name>compile_Cwise_times_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DenseBase_LinSpaced.vcxproj">
+      <Project>{4B203757-CA73-3EFB-9351-6AC3CB2A5C64}</Project>
+      <Name>compile_DenseBase_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DenseBase_LinSpacedInt.vcxproj">
+      <Project>{1941650C-A401-366F-ADD7-1C4DD5F982BB}</Project>
+      <Name>compile_DenseBase_LinSpacedInt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DenseBase_LinSpaced_seq.vcxproj">
+      <Project>{BFAFD202-464C-3328-A3C1-59521C011D2C}</Project>
+      <Name>compile_DenseBase_LinSpaced_seq</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>{AB6F9961-F9F4-39D3-90DB-F1462531F50D}</Project>
+      <Name>compile_DenseBase_setLinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DirectionWise_hnormalized.vcxproj">
+      <Project>{0DDA00B8-1AF5-3E40-9289-2D73CABC43A1}</Project>
+      <Name>compile_DirectionWise_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DirectionWise_replicate.vcxproj">
+      <Project>{797DB55E-D7B2-3CBD-97B2-55295790DB6F}</Project>
+      <Name>compile_DirectionWise_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_DirectionWise_replicate_int.vcxproj">
+      <Project>{B60626BC-D881-33DF-9189-8EE42992C568}</Project>
+      <Name>compile_DirectionWise_replicate_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>{B3B98BF6-F967-3FEA-A27B-F156809AF498}</Project>
+      <Name>compile_EigenSolver_EigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_EigenSolver_compute.vcxproj">
+      <Project>{A31DD023-5360-3FB3-AB41-A9412F42DD61}</Project>
+      <Name>compile_EigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>{650F6208-DB3F-3237-990E-4B1B0A1E5104}</Project>
+      <Name>compile_EigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>{47348C8A-B9E7-398A-8D58-984B3FCF8388}</Project>
+      <Name>compile_EigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>{83FFC57A-A602-3150-9681-3492834AABE3}</Project>
+      <Name>compile_EigenSolver_pseudoEigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>{12E8D54E-7259-34EE-9AB2-2FED32656F2C}</Project>
+      <Name>compile_FullPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_FullPivLU_image.vcxproj">
+      <Project>{28FC091E-7DE0-3522-AF42-7DBE3B79E522}</Project>
+      <Name>compile_FullPivLU_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_FullPivLU_kernel.vcxproj">
+      <Project>{2458BD8D-C57C-3C53-A4F9-673DFD0B838F}</Project>
+      <Name>compile_FullPivLU_kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_FullPivLU_solve.vcxproj">
+      <Project>{361D13E0-C09A-32B9-9F33-5FEA5153A803}</Project>
+      <Name>compile_FullPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_GeneralizedEigenSolver.vcxproj">
+      <Project>{E24DF875-4F9D-33AC-B1A8-D88B208E2718}</Project>
+      <Name>compile_GeneralizedEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>{42AED7A6-E21E-3AEE-BE44-F31D7504B006}</Project>
+      <Name>compile_HessenbergDecomposition_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>{4B2A8CEC-C7CA-361F-A8FD-745B363CD64B}</Project>
+      <Name>compile_HessenbergDecomposition_matrixH</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>{74D019DC-0BA9-3DD7-A9A2-64CE7EA19983}</Project>
+      <Name>compile_HessenbergDecomposition_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_HouseholderQR_householderQ.vcxproj">
+      <Project>{52D46A98-F28F-3F22-9226-49C913758A17}</Project>
+      <Name>compile_HouseholderQR_householderQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_HouseholderQR_solve.vcxproj">
+      <Project>{E59CCEBE-898A-386B-B5B4-DBF54E0CE1E6}</Project>
+      <Name>compile_HouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>{A0255E71-75C5-31BE-90C1-3A4D021D29D4}</Project>
+      <Name>compile_HouseholderSequence_HouseholderSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_IOFormat.vcxproj">
+      <Project>{C42AB3FB-382D-3296-9304-B620ABAA3CDE}</Project>
+      <Name>compile_IOFormat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_JacobiSVD_basic.vcxproj">
+      <Project>{E97740E6-FD47-363E-9457-5BA1E68A40C8}</Project>
+      <Name>compile_JacobiSVD_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Jacobi_makeGivens.vcxproj">
+      <Project>{D760841A-4D7F-30B0-A75E-C6F5E805D917}</Project>
+      <Name>compile_Jacobi_makeGivens</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Jacobi_makeJacobi.vcxproj">
+      <Project>{F7615821-C664-3B11-BE0C-F4A23EF2C26F}</Project>
+      <Name>compile_Jacobi_makeJacobi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_LLT_example.vcxproj">
+      <Project>{69888548-479E-3D00-A8B0-53773281A995}</Project>
+      <Name>compile_LLT_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_LLT_solve.vcxproj">
+      <Project>{CC845BCB-F65D-3BFC-A5E2-04FC1DBB433D}</Project>
+      <Name>compile_LLT_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_LeastSquaresNormalEquations.vcxproj">
+      <Project>{B3A93C63-FE36-3181-8141-ACA846F3EC8D}</Project>
+      <Name>compile_LeastSquaresNormalEquations</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_LeastSquaresQR.vcxproj">
+      <Project>{B0EEF106-6D00-36DF-AB88-FE113DE16EC4}</Project>
+      <Name>compile_LeastSquaresQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Map_general_stride.vcxproj">
+      <Project>{A893C0E2-A156-31BF-8DC0-222CD0038480}</Project>
+      <Name>compile_Map_general_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Map_inner_stride.vcxproj">
+      <Project>{3ADBA4EA-B51B-35B6-B1E7-4AC969159312}</Project>
+      <Name>compile_Map_inner_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Map_outer_stride.vcxproj">
+      <Project>{86AC0109-A587-34AA-86D8-91C3A8EA5CDB}</Project>
+      <Name>compile_Map_outer_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Map_placement_new.vcxproj">
+      <Project>{F788980E-A02C-30ED-BA64-44F0377207BE}</Project>
+      <Name>compile_Map_placement_new</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Map_simple.vcxproj">
+      <Project>{CF0769D5-1FC0-3AC8-9F3A-46BBAE04572D}</Project>
+      <Name>compile_Map_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_adjoint.vcxproj">
+      <Project>{F36B7C75-8551-3C42-B820-60A914938229}</Project>
+      <Name>compile_MatrixBase_adjoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_all.vcxproj">
+      <Project>{657ECA57-B456-3BC8-846A-6E7F4A31414F}</Project>
+      <Name>compile_MatrixBase_all</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>{13ED01A9-0944-3579-B4F5-D8D8BF7ECB5A}</Project>
+      <Name>compile_MatrixBase_applyOnTheLeft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>{FE7CCB25-4E31-315B-AC15-14AF347E518E}</Project>
+      <Name>compile_MatrixBase_applyOnTheRight</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_array.vcxproj">
+      <Project>{472C9D9E-7209-30B2-AA84-BF0A17226DC6}</Project>
+      <Name>compile_MatrixBase_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_array_const.vcxproj">
+      <Project>{75A8AD3C-C6A1-3EB1-BEFA-439502FA090B}</Project>
+      <Name>compile_MatrixBase_array_const</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>{DE979C29-0B75-3335-ACF9-8C0738A9AC60}</Project>
+      <Name>compile_MatrixBase_asDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_block_int_int.vcxproj">
+      <Project>{809B019F-9E3E-3AD8-B95A-6593119EE3B8}</Project>
+      <Name>compile_MatrixBase_block_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>{50F7D23E-223A-30AA-9338-DC681B790F80}</Project>
+      <Name>compile_MatrixBase_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>{6F79FEC7-32B9-3C77-B308-2EF028D579AC}</Project>
+      <Name>compile_MatrixBase_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>{2510A4DD-6F60-3170-BFF9-C2810A00F831}</Project>
+      <Name>compile_MatrixBase_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>{A234AA24-B32A-3F87-B897-68DCDF87BD90}</Project>
+      <Name>compile_MatrixBase_bottomRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cast.vcxproj">
+      <Project>{9D6D9124-C99E-3A24-AA86-516AC15BE963}</Project>
+      <Name>compile_MatrixBase_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_col.vcxproj">
+      <Project>{4DF9A706-3EA5-3ED5-8E61-C8618A22DF81}</Project>
+      <Name>compile_MatrixBase_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_colwise.vcxproj">
+      <Project>{D7B8E642-CB4C-3F1F-82CF-AFC132730B5E}</Project>
+      <Name>compile_MatrixBase_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>{5E63D2CB-CDAF-3D68-87CE-D9BD850182F3}</Project>
+      <Name>compile_MatrixBase_computeInverseAndDetWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>{C1EB1F01-2E2F-33E0-87AC-8952485F48C2}</Project>
+      <Name>compile_MatrixBase_computeInverseWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>{462BF545-373E-38B8-8FCF-2D78C8D98FDA}</Project>
+      <Name>compile_MatrixBase_cwiseAbs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>{1099D81A-3C67-3049-9ABE-2B6F56DE70DE}</Project>
+      <Name>compile_MatrixBase_cwiseAbs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>{88BCA232-40D6-30FD-B4D7-CDDCA6B839AD}</Project>
+      <Name>compile_MatrixBase_cwiseEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>{DA4CDA5A-41AA-33CB-90F7-02881202CD2B}</Project>
+      <Name>compile_MatrixBase_cwiseInverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>{4A7BDA1B-03C6-38C3-AC31-4300E087FF66}</Project>
+      <Name>compile_MatrixBase_cwiseMax</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>{1D866666-DD55-3102-9A1C-5C89C4DCE146}</Project>
+      <Name>compile_MatrixBase_cwiseMin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>{99EE85D8-69B3-3071-BA80-CD67599E3D3E}</Project>
+      <Name>compile_MatrixBase_cwiseNotEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>{FA30B392-07F8-33E6-99A4-BAE95FAC1132}</Project>
+      <Name>compile_MatrixBase_cwiseProduct</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>{2BBFAA16-ED8E-34EC-9FBC-C53F29AECBE3}</Project>
+      <Name>compile_MatrixBase_cwiseQuotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseSign.vcxproj">
+      <Project>{91ACFB70-1DA1-30FB-8022-9E2280378C06}</Project>
+      <Name>compile_MatrixBase_cwiseSign</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>{7971F8F8-7A0C-3DD4-B8CD-5B825226B235}</Project>
+      <Name>compile_MatrixBase_cwiseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_diagonal.vcxproj">
+      <Project>{312BFE70-8059-3CC0-A4D0-A191B4291D48}</Project>
+      <Name>compile_MatrixBase_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>{D3594C8A-DA24-3D71-8488-A4CBDEF6A78A}</Project>
+      <Name>compile_MatrixBase_diagonal_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>{83A63813-D806-3945-B602-CA2C46CCB070}</Project>
+      <Name>compile_MatrixBase_diagonal_template_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>{14D5C4EA-CD5B-3111-B2FA-BD7B6C531090}</Project>
+      <Name>compile_MatrixBase_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_end_int.vcxproj">
+      <Project>{AE7F4EF4-E172-3EF4-8A24-DB241071DCC5}</Project>
+      <Name>compile_MatrixBase_end_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_eval.vcxproj">
+      <Project>{1BD7A8BC-C3F8-36AF-A65E-ACAF7080558C}</Project>
+      <Name>compile_MatrixBase_eval</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>{CBC0C8F3-28FA-3484-8604-A459978C2EDF}</Project>
+      <Name>compile_MatrixBase_fixedBlock_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_hnormalized.vcxproj">
+      <Project>{F67B9F4C-FD6F-3A9B-A8E1-46E1CB07D54C}</Project>
+      <Name>compile_MatrixBase_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_homogeneous.vcxproj">
+      <Project>{2C2DE90E-22AC-3558-AE3B-BA6121A73CD8}</Project>
+      <Name>compile_MatrixBase_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_identity.vcxproj">
+      <Project>{24953D78-3D44-378C-920D-D4E9200361B6}</Project>
+      <Name>compile_MatrixBase_identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>{55EC2264-3E88-30F5-995F-CBA1308A295D}</Project>
+      <Name>compile_MatrixBase_identity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_inverse.vcxproj">
+      <Project>{3C09459C-F748-31AC-B2C7-374D6F9CA5E1}</Project>
+      <Name>compile_MatrixBase_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>{C7C6279F-E909-3584-9310-7366700D6AE4}</Project>
+      <Name>compile_MatrixBase_isDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_isIdentity.vcxproj">
+      <Project>{50ADE2DD-456E-33E7-A598-5902C4790788}</Project>
+      <Name>compile_MatrixBase_isIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_isOnes.vcxproj">
+      <Project>{C36671CC-B76F-3269-8E36-4A7BC7ED5D60}</Project>
+      <Name>compile_MatrixBase_isOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>{17FA6845-8E01-39FB-822F-5D8561FDDC74}</Project>
+      <Name>compile_MatrixBase_isOrthogonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_isUnitary.vcxproj">
+      <Project>{750BADB1-B865-3C13-A34C-18D81F292804}</Project>
+      <Name>compile_MatrixBase_isUnitary</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_isZero.vcxproj">
+      <Project>{AEA20C04-507D-3FEC-A7E6-EB485A164AD2}</Project>
+      <Name>compile_MatrixBase_isZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>{2C87F5F1-1D63-3403-9C77-0F4333B23764}</Project>
+      <Name>compile_MatrixBase_leftCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_noalias.vcxproj">
+      <Project>{C49B45D2-6070-37DC-9348-540512A0D1F7}</Project>
+      <Name>compile_MatrixBase_noalias</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_ones.vcxproj">
+      <Project>{EE4A22DD-F87C-3254-8CEF-D06EB9D7A15A}</Project>
+      <Name>compile_MatrixBase_ones</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_ones_int.vcxproj">
+      <Project>{FBA72268-256B-357E-A1BE-DBE44829502E}</Project>
+      <Name>compile_MatrixBase_ones_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>{C0CC40E5-F96B-38E4-AE53-7BBCE1F1D117}</Project>
+      <Name>compile_MatrixBase_ones_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>{3AF6B3C1-6ACD-36DE-B0DD-867025DFE6E8}</Project>
+      <Name>compile_MatrixBase_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_prod.vcxproj">
+      <Project>{18416EF2-3DFB-3F27-B55C-84292DE19820}</Project>
+      <Name>compile_MatrixBase_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_random.vcxproj">
+      <Project>{A250DDFC-FD03-3BCF-9A5E-08089EE405D0}</Project>
+      <Name>compile_MatrixBase_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_random_int.vcxproj">
+      <Project>{952C0EA7-8158-384E-B91D-D94C4CDA23B3}</Project>
+      <Name>compile_MatrixBase_random_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_random_int_int.vcxproj">
+      <Project>{05183B89-B36E-31EB-96AF-840D28AA7D14}</Project>
+      <Name>compile_MatrixBase_random_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_replicate.vcxproj">
+      <Project>{004D1D24-74D0-395F-B088-66EA61D214AC}</Project>
+      <Name>compile_MatrixBase_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>{5C053767-BEAB-3662-8319-90E005DCC843}</Project>
+      <Name>compile_MatrixBase_replicate_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_reverse.vcxproj">
+      <Project>{EAD977FE-2BA6-3160-B701-AA7BFB24E73B}</Project>
+      <Name>compile_MatrixBase_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>{40290F21-E655-39A1-A975-585D6C4D637D}</Project>
+      <Name>compile_MatrixBase_rightCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_row.vcxproj">
+      <Project>{F63D911F-BEE9-34C3-88C5-C96B67E99879}</Project>
+      <Name>compile_MatrixBase_row</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_rowwise.vcxproj">
+      <Project>{1B932442-1D9C-39A2-97EA-1F67B5CB1EFB}</Project>
+      <Name>compile_MatrixBase_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>{7648B26E-1F79-3E03-8257-986F559453B4}</Project>
+      <Name>compile_MatrixBase_segment_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_select.vcxproj">
+      <Project>{5DFFF609-DDF6-3D6B-AE30-324E51DEC27A}</Project>
+      <Name>compile_MatrixBase_select</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_selfadjointView.vcxproj">
+      <Project>{DAA0821B-D9BE-35B8-ABF8-A7103C40569D}</Project>
+      <Name>compile_MatrixBase_selfadjointView</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_set.vcxproj">
+      <Project>{DC92D3FE-7B65-3866-9304-2FA7CB3F0795}</Project>
+      <Name>compile_MatrixBase_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_setIdentity.vcxproj">
+      <Project>{174EFA07-0F9D-39F7-8A0C-ECFB585EEA39}</Project>
+      <Name>compile_MatrixBase_setIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_setOnes.vcxproj">
+      <Project>{9F2180F9-EE8B-3734-A48E-7FF6490B3B46}</Project>
+      <Name>compile_MatrixBase_setOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_setRandom.vcxproj">
+      <Project>{034621D0-B79B-37A3-B73B-D9678E9FD8EA}</Project>
+      <Name>compile_MatrixBase_setRandom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_setZero.vcxproj">
+      <Project>{E51483B4-B3CC-3CFA-83BE-3B1051F71413}</Project>
+      <Name>compile_MatrixBase_setZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_start_int.vcxproj">
+      <Project>{EC2D0712-DD65-337D-8F3F-236DA3F1608A}</Project>
+      <Name>compile_MatrixBase_start_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>{66936CA1-AE50-375F-83A3-C0FB909C31F8}</Project>
+      <Name>compile_MatrixBase_template_int_bottomRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_end.vcxproj">
+      <Project>{C8DC6CF3-3800-37D2-B461-2671B1A71013}</Project>
+      <Name>compile_MatrixBase_template_int_end</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>{FF621454-7841-35A2-81D9-3ED4836D143B}</Project>
+      <Name>compile_MatrixBase_template_int_int_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>{B41E14C1-8405-3BAE-8346-689106EC5B47}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>{D6D14454-9930-3999-BCD3-88F9B49CA15B}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>{7A8A65E3-D43B-3F92-8925-5C2DF0503F8A}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>{EC4C7980-F41A-32BD-859A-1522EF689335}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>{03A03A4A-000B-3F57-9D14-59FE8297B71E}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>{9BDA6BA7-56FA-3600-B8FC-78245F2E4EFC}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>{CAE3CCD6-E97B-3A08-8CD2-BA09BDF3D86F}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>{BBD1B060-A77A-3783-89CE-93B0376D2CD6}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>{701B4183-2122-3BC5-AA67-7A2D3F668BC5}</Project>
+      <Name>compile_MatrixBase_template_int_leftCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>{765DDA0E-23F4-3F8F-912E-D673E8F054DD}</Project>
+      <Name>compile_MatrixBase_template_int_rightCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>{AAC0AE12-5C57-3C4D-887B-E0FDB2171CBB}</Project>
+      <Name>compile_MatrixBase_template_int_segment</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_start.vcxproj">
+      <Project>{41559683-F192-3F57-8972-B1ED5564682C}</Project>
+      <Name>compile_MatrixBase_template_int_start</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>{4711EC86-692A-3CE8-A4CB-33615EDE2604}</Project>
+      <Name>compile_MatrixBase_template_int_topRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>{A69DA808-413B-38F1-8D8C-196BDCD2402B}</Project>
+      <Name>compile_MatrixBase_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>{22673EE1-E24E-37D9-8080-39BE77BDD901}</Project>
+      <Name>compile_MatrixBase_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_topRows_int.vcxproj">
+      <Project>{7398D40C-E81D-33E8-9D42-0C65C455D08E}</Project>
+      <Name>compile_MatrixBase_topRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_transpose.vcxproj">
+      <Project>{0F776876-D564-3F9D-A231-375EFF48A8F4}</Project>
+      <Name>compile_MatrixBase_transpose</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_triangularView.vcxproj">
+      <Project>{656B11A2-EC18-3DE3-A861-6E6DE76E5069}</Project>
+      <Name>compile_MatrixBase_triangularView</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_zero.vcxproj">
+      <Project>{57DBD632-6DC2-3C3D-9244-A4151AA91081}</Project>
+      <Name>compile_MatrixBase_zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_zero_int.vcxproj">
+      <Project>{AC47F117-7666-3F47-A79B-56626B7BDD7C}</Project>
+      <Name>compile_MatrixBase_zero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>{8E76718E-98D3-3C4F-8D5A-3A0CA392A0CD}</Project>
+      <Name>compile_MatrixBase_zero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_Map_stride.vcxproj">
+      <Project>{FF13A792-58D5-3029-A137-19E64ED8BA83}</Project>
+      <Name>compile_Matrix_Map_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>{F9A8475D-0FEC-3E58-B760-BE50D846B5AF}</Project>
+      <Name>compile_Matrix_resize_NoChange_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_resize_int.vcxproj">
+      <Project>{CC01DAE0-2AC2-3D4E-8131-31599B8BAC00}</Project>
+      <Name>compile_Matrix_resize_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>{C643405A-CD7C-371E-8A0C-042014BC9474}</Project>
+      <Name>compile_Matrix_resize_int_NoChange</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_resize_int_int.vcxproj">
+      <Project>{49B3DCD6-DA99-3949-9D47-D8014308B790}</Project>
+      <Name>compile_Matrix_resize_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setConstant_int.vcxproj">
+      <Project>{2A206467-D0AE-3FA7-8E7B-F0472611A221}</Project>
+      <Name>compile_Matrix_setConstant_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>{2974D20B-947C-3A2F-8FF1-5C6A0F5D9421}</Project>
+      <Name>compile_Matrix_setConstant_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>{D19CE3A3-E0DF-3B91-AE57-CFA8431F2363}</Project>
+      <Name>compile_Matrix_setIdentity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setOnes_int.vcxproj">
+      <Project>{18797863-A6E0-3AEA-AAD3-116F1560280E}</Project>
+      <Name>compile_Matrix_setOnes_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>{930A4767-9FD1-37E0-A262-4EDD03E53351}</Project>
+      <Name>compile_Matrix_setOnes_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setRandom_int.vcxproj">
+      <Project>{492CB8A8-D878-3DB9-994B-039FFB69C55C}</Project>
+      <Name>compile_Matrix_setRandom_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>{BCF6CF43-A65A-3B9A-81EA-7CD520597782}</Project>
+      <Name>compile_Matrix_setRandom_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setZero_int.vcxproj">
+      <Project>{F5633489-B254-3E7B-883D-80E21AB920EB}</Project>
+      <Name>compile_Matrix_setZero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Matrix_setZero_int_int.vcxproj">
+      <Project>{C3BCAE8B-7E25-3F0C-A704-A555526C11FE}</Project>
+      <Name>compile_Matrix_setZero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialPivLU_solve.vcxproj">
+      <Project>{5234A7DB-D73F-349B-BADE-51AAAD4E0849}</Project>
+      <Name>compile_PartialPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_count.vcxproj">
+      <Project>{1C07F70D-7BF7-32EA-AA3A-9CC8E30B858B}</Project>
+      <Name>compile_PartialRedux_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>{6F514920-BEF3-3B84-BF69-FA51D3AA255E}</Project>
+      <Name>compile_PartialRedux_maxCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_minCoeff.vcxproj">
+      <Project>{98FB0097-AE17-3088-8544-474CC4056AA1}</Project>
+      <Name>compile_PartialRedux_minCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_norm.vcxproj">
+      <Project>{E0090502-0683-39FB-8B69-28C6C1B7FAD6}</Project>
+      <Name>compile_PartialRedux_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_prod.vcxproj">
+      <Project>{7C2F48F4-525F-3B5D-A7F9-07410C00A102}</Project>
+      <Name>compile_PartialRedux_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>{32872A2C-BCFE-34C8-ACB9-29160AE5C056}</Project>
+      <Name>compile_PartialRedux_squaredNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_PartialRedux_sum.vcxproj">
+      <Project>{D5A3B577-3026-3588-A468-756FCFEFB2D9}</Project>
+      <Name>compile_PartialRedux_sum</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_RealQZ_compute.vcxproj">
+      <Project>{9E9A5ABE-1D2B-3D69-9949-28273284CDCA}</Project>
+      <Name>compile_RealQZ_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>{FF86DF68-1004-3E79-BC8F-3DB03DC1978B}</Project>
+      <Name>compile_RealSchur_RealSchur_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_RealSchur_compute.vcxproj">
+      <Project>{4FBCF67D-8B6F-39A1-BC74-AB733B7449C8}</Project>
+      <Name>compile_RealSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>{897A39FD-3A48-3F31-AB8F-487549CC40DD}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>{DAF6846D-2BC1-3494-AA4E-76C5D992BCEB}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>{72B723A3-5DE9-31E7-A673-0A101B0DC101}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>{79C37C30-DF72-3584-8B12-3FF1CEA4D538}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>{B4F0DCB2-041B-3063-ACD1-1FC4873D3E53}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>{A83A85B8-216D-3555-86DF-64A8F7E32C53}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>{1F265A0A-1F26-3636-9F70-85F2FD276ABD}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>{5DFB51EE-9E6E-319D-8597-8E3D83056A77}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorInverseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>{3F244883-087A-35CD-82B2-E1A7F54D09EF}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>{6281B466-1CAF-3FDF-B619-4F085EE6EE9C}</Project>
+      <Name>compile_SelfAdjointView_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>{1EEBFEC7-E51E-3AB6-A5C4-5CCCF7E5EF92}</Project>
+      <Name>compile_SelfAdjointView_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_SparseMatrix_coeffs.vcxproj">
+      <Project>{57AA0354-98D5-35BA-BB1E-5622B21E944D}</Project>
+      <Name>compile_SparseMatrix_coeffs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_block.vcxproj">
+      <Project>{0A773622-E256-35DE-8CED-C4FADA6B09AA}</Project>
+      <Name>compile_TopicAliasing_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_block_correct.vcxproj">
+      <Project>{2E386AB7-04C5-35BF-9C6F-E5DC27F48775}</Project>
+      <Name>compile_TopicAliasing_block_correct</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_cwise.vcxproj">
+      <Project>{EF72934F-00B4-3D98-98BA-4FB68C2B6F69}</Project>
+      <Name>compile_TopicAliasing_cwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_mult1.vcxproj">
+      <Project>{DD39374F-AC5A-3D83-A740-C700BE621D55}</Project>
+      <Name>compile_TopicAliasing_mult1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_mult2.vcxproj">
+      <Project>{535E17C3-6D6B-3089-A245-CCF6C4C6CBB0}</Project>
+      <Name>compile_TopicAliasing_mult2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_mult3.vcxproj">
+      <Project>{13AEA626-3CAA-30F8-A6F4-333FFCAB83D0}</Project>
+      <Name>compile_TopicAliasing_mult3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_mult4.vcxproj">
+      <Project>{C4E797F3-2973-3190-8397-CDAAC53D68AF}</Project>
+      <Name>compile_TopicAliasing_mult4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicAliasing_mult5.vcxproj">
+      <Project>{B0B6C3D6-C9FE-38A7-880D-F4F002E18964}</Project>
+      <Name>compile_TopicAliasing_mult5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_TopicStorageOrders_example.vcxproj">
+      <Project>{4278B38F-DDAC-334C-96BE-BB460979B6F9}</Project>
+      <Name>compile_TopicStorageOrders_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Triangular_solve.vcxproj">
+      <Project>{5CB9FD74-925D-3900-A698-FFB2C3A73CE7}</Project>
+      <Name>compile_Triangular_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>{79759844-BE69-35B5-95D4-AE7B26967BD2}</Project>
+      <Name>compile_Tridiagonalization_Tridiagonalization_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tridiagonalization_compute.vcxproj">
+      <Project>{6EF6E2CB-6C69-398D-A101-12D50292A56D}</Project>
+      <Name>compile_Tridiagonalization_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>{71D46D03-BF62-3714-B167-7433BC75F83D}</Project>
+      <Name>compile_Tridiagonalization_decomposeInPlace</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>{CDA0BFD2-1ED4-3CCB-A25E-3F97652352C6}</Project>
+      <Name>compile_Tridiagonalization_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>{0257AEBD-0808-3BDF-A2B9-909BFEB2094D}</Project>
+      <Name>compile_Tridiagonalization_householderCoefficients</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>{60EB90F6-9926-3F17-A086-3CBE96893FA3}</Project>
+      <Name>compile_Tridiagonalization_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>{54C0960F-DB44-3F34-B1CD-5B2F55E7B83E}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>{89B449A4-87E9-3448-912B-4EA5C88F020B}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_CommaTemporary</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>{C8CD049F-04D3-3B45-B8B4-A51694B46430}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Join</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>{0E7A8B84-8A62-3DA0-ABEB-138F636240FA}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>{1C296760-154C-346E-A852-7FE73DBF54B3}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_ThreeWays</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>{D234860B-1577-3971-BC8E-9ECFC11E4BAB}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>{1AD34073-1586-3052-8BF2-61003F723E2A}</Project>
+      <Name>compile_Tutorial_Map_rowmajor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_Map_using.vcxproj">
+      <Project>{6B8A5852-84CC-3F68-98DD-D8D0D4446261}</Project>
+      <Name>compile_Tutorial_Map_using</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_ReshapeMat2Mat.vcxproj">
+      <Project>{FAE96F25-113A-3869-AC83-311CD781BE21}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_ReshapeMat2Vec.vcxproj">
+      <Project>{D353CBD3-239C-351A-B873-82292A5A2161}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Vec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_SlicingCol.vcxproj">
+      <Project>{3D3045E8-C581-33B1-B47F-A661B94F9A33}</Project>
+      <Name>compile_Tutorial_SlicingCol</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_SlicingVec.vcxproj">
+      <Project>{D9A40739-B4EF-31F4-9751-7C249837BC7A}</Project>
+      <Name>compile_Tutorial_SlicingVec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_commainit_01.vcxproj">
+      <Project>{D5915770-5F46-3767-A367-D8D1AE094A4F}</Project>
+      <Name>compile_Tutorial_commainit_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_commainit_01b.vcxproj">
+      <Project>{EE758840-33A8-3E75-A8F0-1A458E0FD2B1}</Project>
+      <Name>compile_Tutorial_commainit_01b</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_commainit_02.vcxproj">
+      <Project>{C73E655D-C3AC-309C-AA81-9A051D8D82B3}</Project>
+      <Name>compile_Tutorial_commainit_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>{DDE60572-6C5C-3331-B55E-8A2F983D6356}</Project>
+      <Name>compile_Tutorial_solve_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>{6C91B2C1-DEAB-3366-B542-E015F140832B}</Project>
+      <Name>compile_Tutorial_solve_multiple_rhs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>{A6AE059E-DD45-3009-98BC-6D6E6FFAC785}</Project>
+      <Name>compile_Tutorial_solve_reuse_decomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_solve_singular.vcxproj">
+      <Project>{3C4C4ED8-D3D9-37A8-88DE-1720FC31F972}</Project>
+      <Name>compile_Tutorial_solve_singular</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_solve_triangular.vcxproj">
+      <Project>{4A3109C0-9AE1-3BEE-A87A-27C77CA0C03F}</Project>
+      <Name>compile_Tutorial_solve_triangular</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>{E990E5EA-D46B-30FC-9DB3-60BD2CB31451}</Project>
+      <Name>compile_Tutorial_solve_triangular_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_VectorwiseOp_homogeneous.vcxproj">
+      <Project>{E9E0BFD4-7AEE-3085-BA66-FAB5228CAA0E}</Project>
+      <Name>compile_VectorwiseOp_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_Vectorwise_reverse.vcxproj">
+      <Project>{BFA895E9-401D-3D86-8521-72481BB61362}</Project>
+      <Name>compile_Vectorwise_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_class_FullPivLU.vcxproj">
+      <Project>{E59B3CA3-218E-35E5-A4F3-528789F0E429}</Project>
+      <Name>compile_class_FullPivLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>{F0121B3A-597C-3914-9608-C0B5C308E735}</Project>
+      <Name>compile_tut_arithmetic_redux_minmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>{BB9C0D26-E690-3766-8D13-7C44CDE4523E}</Project>
+      <Name>compile_tut_arithmetic_transpose_aliasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>{6BAB6054-0AB2-3D82-B471-43B61AA2D568}</Project>
+      <Name>compile_tut_arithmetic_transpose_conjugate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>{7A6462B6-F034-330F-BDE4-135AEFCC8A6C}</Project>
+      <Name>compile_tut_arithmetic_transpose_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\snippets\compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>{A956867C-97F5-3EB7-A24A-3F47FDD980D3}</Project>
+      <Name>compile_tut_matrix_assignment_resizing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\doc.vcxproj">
+      <Project>{254EC369-15A7-3389-8807-A7C02857D362}</Project>
+      <Name>doc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\doc-eigen-prerequisites.vcxproj">
+      <Project>{6CDAC3FB-5C04-3286-8A08-134E116FB265}</Project>
+      <Name>doc-eigen-prerequisites</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\doc-unsupported-prerequisites.vcxproj">
+      <Project>{182FA76D-1AD8-3F67-B436-5E7B0B2EDE1A}</Project>
+      <Name>doc-unsupported-prerequisites</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{7394270A-5D27-32A2-A8F5-68EA11E41694}</Project>
+      <Name>function_taking_eigenbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\function_taking_ref.vcxproj">
+      <Project>{AB7863F5-FC62-325A-BE5E-220AFAF8B00A}</Project>
+      <Name>function_taking_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\make_circulant.vcxproj">
+      <Project>{8B0272F8-E755-3488-83E6-FCD2568F729E}</Project>
+      <Name>make_circulant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\make_circulant2.vcxproj">
+      <Project>{A4B2D3AA-7EF3-34A8-927B-8E48DE6B25F5}</Project>
+      <Name>make_circulant2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{D1B605AA-8962-3F8E-AF82-C72C9AC87787}</Project>
+      <Name>matrixfree_cg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\nullary_indexing.vcxproj">
+      <Project>{0FD36C6A-81D3-3B52-88B7-2CB2714E752C}</Project>
+      <Name>nullary_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{F0C10BD9-CB3B-3AD5-8D0A-73F224C1F2E6}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{20723501-482C-3967-9D0A-9E33F997E0C1}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{32575888-0731-35ED-A527-5DA206302135}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{29C2DA12-0847-328B-8FF2-C18081F6286D}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{F58EB4DA-BD6A-322B-B165-3FD1830AE25A}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{DDADA040-E14B-3A28-B84D-06C38FDB0306}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{A1DCE254-C8EB-3CFC-B560-2ACB9078F1E0}</Project>
+      <Name>tut_matrix_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{7A1F2FCE-7182-3B1F-9F6E-C38E7D833616}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

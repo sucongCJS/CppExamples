@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B908A71-7AB8-3D9D-B8D1-5F3ECA76FB37}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>matrix_power</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\x\GAMES\GAMES101\eigen3\build\unsupported\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test;D:\x\GAMES\GAMES101\eigen3;D:\x\GAMES\GAMES101\eigen3\build;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\test;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\unsupported;D:\x\GAMES\GAMES101\eigen3\unsupported\test\..\..\Eigen;D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\x\GAMES\GAMES101\eigen3\unsupported\test\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/x/GAMES/GAMES101/eigen3/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/x/GAMES/GAMES101/eigen3 -BD:/x/GAMES/GAMES101/eigen3/build --check-stamp-file D:/x/GAMES/GAMES101/eigen3/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindAdolc.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindFFTW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGLEW.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGMP.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindGoogleHash.cmake;D:\x\GAMES\GAMES101\eigen3\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\ZERO_CHECK.vcxproj">
+      <Project>{7331F8B3-5034-3876-8A0B-5D3EB1FC0FB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_1.vcxproj">
+      <Project>{BA77C5F7-7CE0-320A-8C26-BFA6E8FB137D}</Project>
+      <Name>matrix_power_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_10.vcxproj">
+      <Project>{BF127ED9-02F4-31DB-ACAA-5E63C2F7AB48}</Project>
+      <Name>matrix_power_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_11.vcxproj">
+      <Project>{D98A1A6B-E73D-3EE0-8D0A-D1BC0D9E030B}</Project>
+      <Name>matrix_power_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_12.vcxproj">
+      <Project>{BF2E485E-556C-3B09-8D92-5C4102B348DB}</Project>
+      <Name>matrix_power_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_2.vcxproj">
+      <Project>{7049ED32-4019-3D3C-935C-11877336768F}</Project>
+      <Name>matrix_power_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_3.vcxproj">
+      <Project>{0AFE8F3B-DAEA-3C32-9FC7-6B12CA845C3D}</Project>
+      <Name>matrix_power_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_4.vcxproj">
+      <Project>{2391F637-E194-3931-8CB3-70737BCE2283}</Project>
+      <Name>matrix_power_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_5.vcxproj">
+      <Project>{6A279C2B-0DD3-3F5F-9C8C-282E3605BC8E}</Project>
+      <Name>matrix_power_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_6.vcxproj">
+      <Project>{18B21857-C0B7-32D1-9953-B3F14FBB9EC8}</Project>
+      <Name>matrix_power_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_7.vcxproj">
+      <Project>{F8B3206A-E414-33CE-ADCE-86576E453C0D}</Project>
+      <Name>matrix_power_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_8.vcxproj">
+      <Project>{B0AF3D01-01F6-3A9F-A656-EC7B88F978E7}</Project>
+      <Name>matrix_power_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\x\GAMES\GAMES101\eigen3\build\unsupported\test\matrix_power_9.vcxproj">
+      <Project>{728BB0C3-65FC-3F97-BAD7-02466AC780D6}</Project>
+      <Name>matrix_power_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
